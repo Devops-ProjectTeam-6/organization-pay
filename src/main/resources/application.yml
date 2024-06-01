@@ -28,6 +28,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 
   kafka:
     bootstrap-servers: ec2-34-234-196-243.compute-1.amazonaws.com:9092
